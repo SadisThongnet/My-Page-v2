@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile - MyPage v2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- ส่วนหัว: Layout รูป + ข้อมูล ด้วย Table -->
+    <table class="profile-table">
+      <tr>
+        <td style="width: 150px;">
+          <!-- สามารถเปลี่ยน URL รูปภาพหรือใช้รูปในโฟลเดอร์เดียวกันได้ -->
+          <img src="รูป.jpg" alt="Profile Picture" class="profile-img">
+        </td>
+        <!-- Challenge: เว้นระยะห่างรูปกับ Text ด้วย class profile-info ที่ใส่ padding-left -->
+        <td class="profile-info">
+          <h1>Sadis Thongnet</h1>
+          <p><strong>ตำแหน่ง:</strong> Computer Engineering </p>
+          <p><strong>สาขาวิชา:</strong> วิศวกรรมคอมพิวเตอร์ </p>
+          <p><strong>สถาบัน:</strong> สถาบันการจัดการปัญญาภิวัฒน์</p>
+          <div style="margin-top: 12px;">
+            <a href="contact.html" class="btn-primary">ติดต่อฉัน (Contact Me)</a>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <hr>
+
+    <!-- About Me -->
+    <section>
+      <h2>About Me</h2>
+      <p>ยินดีต้อนรับสู่โปรไฟล์ของผม มีความสนใจด้านการพัฒนาซอฟต์แวร์ อัลกอริทึม การเขียนโปรแกรม และเทคโนโลยีใหม่ ๆ ชื่นชอบการเรียนรู้สิ่งใหม่และการแก้ปัญหาทางเทคนิคอย่างเป็นระบบ</p>
+    </section>
+
+    <hr>
+
+    <!-- สิ่งที่ชอบทาน (ใช้ ul หรือ ol) -->
+    <section>
+      <h2>อาหารที่ชอบทาน 3 อย่าง</h2>
+      <ul>
+        <li>กะเพราหมูกรอบไข่ดาวไม่สุก</li>
+        <li>เกาเหลาเนื้อ</li>
+        <li>แซลมอนซาชิมิ</li>
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Experience -->
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>2025 - ปัจจุบัน:</strong> ศึกษาด้าน Data Science & Web Application</li>
+        
+        
+      </ul>
+    </section>
+
+    <hr>
+
+    <!-- Skills Table (จัดเป็น 4 Columns: Skill 1, Level 1, Skill 2, Level 2) -->
+    <section>
+      <h2>Skills & Proficiencies</h2>
+      <table class="skills-table">
+        <tr>
+          <td><strong>Java Programming</strong></td>
+          <td>⭐⭐☆☆☆</td>
+          <td><strong>HTML & CSS</strong></td>
+          <td>⭐⭐⭐☆☆</td>
+        </tr>
+        <tr>
+          <td><strong>Data Structures & Algo</strong></td>
+          <td>⭐⭐⭐☆☆</td>
+          <td><strong>Python</strong></td>
+          <td>⭐⭐⭐☆☆</td>
+        </tr>
+        <tr>
+          <td><strong>Git & GitHub</strong></td>
+          <td>⭐⭐⭐⭐☆</td>
+          <td><strong>Problem Solving</strong></td>
+          <td>⭐⭐⭐⭐⭐</td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2026 My Portfolio v2. </p>
+      <p>
+        <a href="https://github.com/SadisThongnet" target="_blank">My GitHub</a> |
+        <a href="contact.html">Contact Form</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
